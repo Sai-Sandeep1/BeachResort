@@ -1,0 +1,56 @@
+.booking-items {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping of items */
+  justify-content: space-around; /* Optional: adjust spacing between items */
+  gap: 15px; /* Optional: add space between items */
+  margin-top: 20px; /* Optional: add some margin at the top */
+}
+
+.booking-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px; /* Maintain fixed width or change as needed */
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.booking-item:hover {
+  transform: scale(1.05);
+}
+
+.room-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.room-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.room-info h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.room-info p {
+  font-size: 14px;
+  color: #555;
+}
+.delete-booking-btn {
+  background-color: #ff4d4d; /* Red color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-booking-btn:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+}
